@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "28b33b0b-1c2a-490c-b553-fd6d68acfede",
+		"name": "Youtube",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "11893816"
+	},
+	"item": [
+		{
+			"name": "start stop ec2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"action\": \"stop\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://h0msaset7e.execute-api.us-west-2.amazonaws.com/dev/update-ec2"
+			},
+			"response": []
+		}
+	]
+}
